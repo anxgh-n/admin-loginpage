@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.form__container {
+  min-height: 100vh;
+  background-image: url(tree.png);
+  color: white;
+  padding: 30px;
+  font-size: 20px;
+  background-size: cover;
+}
+
+.form__container form {
+  box-shadow: rgba(3, 145, 103, 0.3) 0px 1px 2px 0px,
+    rgba(43, 92, 47, 0.95) 0px 1px 3px 1px;
+  padding: 60px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+
+.form__heading {
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 10px;
+  font-size: 34px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.form__button {
+  width: 100%;
+  background-color: rgba(33, 66, 27, 0.795);
+  color: rgb(255, 255, 255);
+  padding: 5px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.form__button:hover {
+
+  background-color: rgba(16, 63, 8, 0.795);
+}
+
+.form__submit-btn {
+  margin-top: 20px;
+  width: 100%;
+  color: white;
+  background-color: black;
+  padding: 10px 0px;
+}
+
+.form__submit-btn:hover {
+  opacity: 1.0;
+}
+
+.content {
+  min-height: 73vh !important;
+}
+
+.form-control::placeholder {
+  font-size: 16px;
+  /* Adjust the size to your preference */
+}

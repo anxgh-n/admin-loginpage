@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.custom-background {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    justify-content: center;
+    margin: 10px;
+
+}
+
+.cust-text {
+    font-size: 28px;
+}
+
+body {
+    background-image: url('dryleaf.jpg');
+    background-size: cover;
+}
+
+.bcgedit {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+
+.btn-size {
+    width: 100%;
+    font-weight: bold;
+    background-color: rgba(1, 68, 1, 0.995);
+    color: white;
+    padding: 5px;
+}
+
+.btn-size:hover {
+    background-color: rgba(6, 110, 6, 0.795);
+    color: white;
+}
+
+.btn-cl {
+    margin-bottom: 20px;
+    background-color: rgba(36, 54, 34, 0.8);
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    box-shadow: rgba(90, 118, 109, 0.3) 1px 1px 1px 1px,
+        rgba(75, 86, 75, 0.95) 1px 1px 1px 1px;
+}
+
+.btn-cl:hover {
+    background-color: rgba(98, 146, 93, 0.8);
+    color: white;
+}

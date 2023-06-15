@@ -1,0 +1,26 @@
+{
+  "contacts": [
+    {
+      "name": "Mary Andrews",
+      "email": "maryann@kappamail.com",
+      "countryCode": "+91-",
+      "phoneNumber": "5667420",
+      "gender": "Female",
+      "password": "adm32d321",
+      "id": 1686821144155,
+      "fav": false,
+      "profilePic": "blob:http://localhost:3000/1cd501fc-8657-43e0-bda5-d213db411d6f"
+    },
+    {
+      "name": "Natalie",
+      "email": "maryann@kappamail.com",
+      "countryCode": "+91-",
+      "phoneNumber": "5667420",
+      "gender": "Female",
+      "password": "fghj5678",
+      "id": 1686822008599,
+      "fav": false,
+      "profilePic": "blob:http://localhost:3000/bd7efe2f-4ba8-4808-b741-b3aa62abc3ce"
+    }
+  ]
+}
